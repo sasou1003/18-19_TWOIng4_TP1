@@ -1,4 +1,122 @@
 h1{
+	position: relative;
+	top: 80px;
+	left: 30px;
 	text-align: center;
-	font-family: Trattatello, fantasy;
+	font-size: 40px;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+h2{
+
+	color: #14A36B;
+}
+
+#sara{
+	text-align: center;
+	font-size: 32px;
+	position: relative;
+	top: -20px;
+	left: -8px;
+	color: #14A36B;
+
+}
+
+#menu{
+	position: relative;
+	top: -150px;
+}
+
+#menu ul
+{
+	text-align: center;
+
+}
+
+#menu li
+{
+	display: inline-block;
+
+}
+
+#menu ul li a
+{
+	text-decoration: none;
+	color: #000000;
+	background-color: #14A36B;
+	padding:8px 60px;
+
+}
+
+#menu ul li a:hover
+{
+	color:#000000;
+	background-color: #9e96fc;
+}
+
+
+#Hprincipal{
+	position: relative;
+	left: 70px;
+}
+
+.ImageRonde{
+	position: relative;
+	top: -40px;
+	left: 5px;
+    border-radius: 50%;
+    border:2px solid black;
+    height: 250px;
+   
+}
+
+.ImageRonde:hover{
+	-webkit-animation: animation 2s;
+}
+
+#debut{
+	text-align: center;
+}
+
+input{
+	margin-bottom: 10px;
+	border:none;
+	border-bottom: solid 2px #14A36B;
+	padding: 5px;
+}
+
+aside{
+	position: relative;
+	top: -80px;
+ 	left: 40px;
+  	width: 20%;
+}
+
+main{
+	position: relative;
+	top: -1000px;
+	margin-right: 50px;
+	float: right;
+	width: 65%;
+}
+
+/* ANIMATION */
+@-webkit-keyframes animation{
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(150px);
+    }
+
+    100% {
+        transform: translateX(150px) rotate(30deg);
+    }
+}
+
+footer{
+	background-color : grey;
+	color: white;
+	height: 100px;
 }
